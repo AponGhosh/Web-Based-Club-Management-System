@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.executive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    margin-top: 14%;
+}
+
+.hero{
+    margin-bottom: 7%;
+}
+
+.advisor {
+    width: 305px;
+    height: 320px;
+    border: 10px solid #adadad;
+    margin-left: 15%;
+    background-image: url(advisor.jpg);
+    background-size: cover;
+    animation: fade 25s infinite;
+}
+
+.executive1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    margin-top: 10%;
+}
+
+.president {
+    width: 305px;
+    height: 320px;
+    border: 10px solid #adadad;
+    margin-right: 15%;
+    background-image: url(president.jpg);
+    background-size: cover;
+    animation: fade 25s infinite;
+}
+
+.executive2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    margin-top: 10%;
+}
+.vp {
+    width: 305px;
+    height: 320px;
+    border: 10px solid #adadad;
+    margin-left: 15%;
+    background-image: url(vp.jpg);
+    background-size: cover;
+    animation: fade 25s infinite;
+}
+.gs {
+    width: 305px;
+    height: 320px;
+    border: 10px solid #adadad;
+    margin-right: 15%;
+    background-image: url(gs.jpg);
+    background-size: cover;
+    animation: fade 25s infinite;
+}
+.os {
+    width: 305px;
+    height: 320px;
+    border: 10px solid #adadad;
+    margin-left: 15%;
+    background-image: url(os.jpg);
+    background-size: cover;
+    animation: fade 25s infinite;
+}
+.fs {
+    width: 305px;
+    height: 320px;
+    border: 10px solid #adadad;
+    margin-right: 15%;
+    background-image: url(fs.jpg);
+    background-size: cover;
+    animation: fade 25s infinite;
+}
+.ps {
+    width: 305px;
+    height: 320px;
+    border: 10px solid #adadad;
+    margin-left: 15%;
+    background-image: url(ps.jpg);
+    background-size: cover;
+    animation: fade 25s infinite;
+}

@@ -1,0 +1,35 @@
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(37, 36, 36, 0.642) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.form-group{
+    margin-bottom:30px;
+} 
+
+
+.membtn {
+   color: #0d1b50;
+}
+
+.event-btn {
+   display: flex;
+   justify-content: center;
+}
+
+.logout-btn {
+   position:fixed;
+   right:10px;
+   top:5px;
+}
+
+
+
+
+
+
